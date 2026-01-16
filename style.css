@@ -5,6 +5,52 @@
 	box-sizing: border-box;
 }
 
-body{
-	background: white;
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+	color: white;
+	min-height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("img/minecraft.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
+h1{
+	margin-left: 35%;
+}
+a{
+	color: red;
+}
+footer{
+	margin-left: 35%;
+	margin-top: 200px;
+}
+li{
+	margin: 5px;
+	margin-left: 0;
+}
+.play {
+	margin: 10px;
+	margin-left: 0;
+}
+.part1{
+	margin: 10px;
+	margin-left: 0;
+}
+.part2{
+	margin: 10px;
+	margin-left: 0;
+}
+
+.part3{
+    margin: 10px;
+	margin-left: 0;
+}
+.haupt p{
+	 font-weight: bold;
+	 color: #9AA0A6;
+}
+
+
