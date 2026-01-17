@@ -20,6 +20,9 @@ body {
 h1{
 	margin-left: 35%;
 }
+p{
+	margin-left: 30px;
+}
 a{
 	color: red;
 }
@@ -27,17 +30,21 @@ footer{
 	margin-left: 35%;
 	margin-top: 200px;
 }
+ul{
+	margin-left: 30px;
+}
 li{
 	margin: 5px;
 	margin-left: 0;
 }
-.play {
+#play {
 	margin: 10px;
-	margin-left: 0;
+	margin-left: 30px;
+	margin-top: 5px;
 }
 .part1{
 	margin: 10px;
-	margin-left: 0;
+	margin-left: 30px;
 }
 .part2{
 	margin: 10px;
@@ -48,9 +55,94 @@ li{
     margin: 10px;
 	margin-left: 0;
 }
+#why{
+	font-weight: bold;
+	 color: #9AA0A6;
+}
 .haupt p{
 	 font-weight: bold;
 	 color: #9AA0A6;
 }
+@media(max-width: 374px){
+	h1{
+		font-size: 20px;
+		margin-left: 25%;
+	}
+	h3{
+		font-size: 15px;
+	}
+	footer{
+	margin-left: 15%;
+	margin-top: 200px;
+	font-size: 10px;
+}
+}
+@media(min-width: 375px) and (max-width: 424px){
+	h1{
+		font-size: 20px;
+		margin-left: 10%;
+	}
+	h3{
+		font-size: 15px;
+	}
+	footer{
+	margin-left: 20%;
+	margin-top: 200px;
+	font-size: 10px;
+}
+}
+@media(min-width: 425px) and (max-width: 500px){
+	h1{
+		font-size: 20px;
+		margin-left: 20%;
+	}
+	h3{
+		font-size: 15px;
+	}
+	footer{
+	margin-left: 25%;
+	margin-top: 200px;
+	font-size: 10px;
+}
+}
+@media(min-width: 501px) and (max-width: 768px){
+	h1{
+		margin-left: 20%;
+	}
+	footer{
+		margin-left: 25%;
+	}
+}
+@media(min-width: 769px) and (max-width: 1024px){
+	h1{
+		margin-left: 30%;
+	}
+	footer{
+		margin-left: 30%;
+	}
+}
+@media(min-width: 1025px) and (max-width: 1600px){
+	footer{
+		margin-left: 30%;
+	}
+	body{
+		font-size: 25px;
+	}
+	h1{
+		margin-left: 25%;
+	}
 
+}
+@media(min-width: 1600px) and (max-width: 2560px){
+	h1{
+		font-size: 60px;
+	}
+	body{
+		font-size: 40px;
+	}
+	footer{
+		font-size: 30px;
+	}
+
+}
 
