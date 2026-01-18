@@ -37,6 +37,10 @@ li{
 	margin: 5px;
 	margin-left: 0;
 }
+li a:hover{
+	color: green;
+
+}
 #play {
 	margin: 10px;
 	margin-left: 30px;
@@ -59,6 +63,20 @@ li{
 	font-weight: bold;
 	 color: #9AA0A6;
 }
+.diamond{
+	width: 50px;
+	height: 50px;
+	 transform: translateY(15px);
+}
+.Dli{
+	margin-top: -20px;
+}
+.grass{
+	width: 50px;
+	height: 50px;
+	margin-left: 1050px;
+	transform: translateY(-55px);
+}
 .haupt p{
 	 font-weight: bold;
 	 color: #9AA0A6;
@@ -76,6 +94,20 @@ li{
 	margin-top: 200px;
 	font-size: 10px;
 }
+.diamond{
+	width: 20px;
+	height: 20px;
+	 transform: translateY(5px);
+}
+.Dli{
+	margin-top: -5px;
+}
+.grass{
+	width: 20px;
+	height: 20px;
+	margin-left: 180px;
+	transform: translateY(-20px);
+}
 }
 @media(min-width: 375px) and (max-width: 424px){
 	h1{
@@ -86,9 +118,23 @@ li{
 		font-size: 15px;
 	}
 	footer{
-	margin-left: 20%;
+	margin-left: 15%;
 	margin-top: 200px;
 	font-size: 10px;
+}
+.diamond{
+	width: 25px;
+	height: 25px;
+	 transform: translateY(10px);
+}
+.Dli{
+	margin-top: -10px;
+}
+.grass{
+	width: 20px;
+	height: 20px;
+	margin-left: 335px;
+	transform: translateY(-20px);
 }
 }
 @media(min-width: 425px) and (max-width: 500px){
@@ -100,9 +146,23 @@ li{
 		font-size: 15px;
 	}
 	footer{
-	margin-left: 25%;
+	margin-left: 20%;
 	margin-top: 200px;
 	font-size: 10px;
+}
+.diamond{
+	width: 30px;
+	height: 30px;
+	 transform: translateY(10px);
+}
+.Dli{
+	margin-top: -8px;
+}
+.grass{
+	width: 25px;
+	height: 25px;
+	margin-left: 380px;
+	transform: translateY(-24px);
 }
 }
 @media(min-width: 501px) and (max-width: 768px){
@@ -112,6 +172,20 @@ li{
 	footer{
 		margin-left: 25%;
 	}
+	.diamond{
+	width: 35px;
+	height: 35px;
+	 transform: translateY(15px);
+}
+.Dli{
+	margin-top: -15px;
+}
+.grass{
+	width: 35px;
+	height: 35px;
+	margin-left: 630px;
+	transform: translateY(-35px);
+}
 }
 @media(min-width: 769px) and (max-width: 1024px){
 	h1{
@@ -120,6 +194,17 @@ li{
 	footer{
 		margin-left: 30%;
 	}
+	.diamond{
+	width: 40px;
+	height: 40px;
+	 transform: translateY(15px);
+}
+.grass{
+	width: 35px;
+	height: 35px;
+	margin-left: 780px;
+	transform: translateY(-37px);
+}
 }
 @media(min-width: 1025px) and (max-width: 1600px){
 	footer{
@@ -131,7 +216,12 @@ li{
 	h1{
 		margin-left: 25%;
 	}
-
+.grass{
+	width: 50px;
+	height: 50px;
+	margin-left: 1100px;
+	transform: translateY(-55px);
+}
 }
 @media(min-width: 1600px) and (max-width: 2560px){
 	h1{
@@ -143,6 +233,19 @@ li{
 	footer{
 		font-size: 30px;
 	}
-
+	.diamond{
+	width: 80px;
+	height: 80px;
+	 transform: translateY(25px);
+}
+.Dli{
+	margin-top: -35px;
+}
+.grass{
+	width: 70px;
+	height: 70px;
+	margin-left: 1780px;
+	transform: translateY(-70px);
+}
 }
 
